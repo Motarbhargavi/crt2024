@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<string.h>
+#include<stdlib.h> 
+    // Write C code here
+    void swap(int *x, int *y)
+    {
+      int t=*x;  
+        *x=*y;
+        *y=t;
+    }
+    int main()
+    {
+        int a,b;
+        printf("enter two numbers");
+        scanf("%d%d",&a,&b);
+        printf("%d %d\n",a,b);
+        swap(&a,&b);
+        printf("%d %d",a,b);
+    }
+    
