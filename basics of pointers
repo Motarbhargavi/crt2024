@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main() {
+    // Write C code here
+    int a=34;
+    printf("value of a=%d\n",a);
+    printf("address of a=%u\n",&a);
+    printf("value of a=%d\n",*(&a));
+}
