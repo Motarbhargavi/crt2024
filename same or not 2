@@ -1,0 +1,30 @@
+def check_arrays_are_same():
+    import sys
+    input = sys.stdin.read
+    data = input().strip().split()
+    
+    # Extract sizes of the arrays
+    n = int(data[0])  # size of the first array
+    m = int(data[1])  # size of the second array
+    
+    # Extract elements of the first array
+    array1 = list(map(int, data[2:2+n]))
+    
+    # Extract elements of the second array
+    array2 = list(map(int, data[2+n:2+n+m]))
+    
+    # Compare arrays
+    if n != m:
+        print("Not Same")
+        return
+    
+    for i in range(n):
+        if array1[i] != array2[i]:
+            print("Not Same")
+            return
+    
+    print("Same")
+
+# Example usage:
+check_arrays_are_same()
+
