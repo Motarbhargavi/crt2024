@@ -1,0 +1,15 @@
+def find_maximum_value():
+    import sys
+    input = sys.stdin.read
+    data = input().strip().split()
+    
+    # Convert input data into integers
+    numbers = list(map(int, data))
+    
+    # Find the maximum value among the five integers
+    max_value = max(numbers)
+    
+    # Print the maximum value
+    print(max_value)
+
+find_maximum_value()
