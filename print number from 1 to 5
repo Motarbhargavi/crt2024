@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=1;
+    printf("%d",a);
+    a=a+1;
+    printf("%d",a);
+    a=a+1;
+    printf("%d",a);
+}
+    
+   (or)
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=1;
+    while(a<=5)
+    {
+        printf("%d",a);
+        a=a+1;
+    }
+    }
+    
+   
