@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int ch;
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        case1:
+        printf("%d",a+b);
+        break;
+        case2:
+        printf("%d",a-b);
+        break;
+        case3:
+        printf("%d",a*b);
+        break;
+        case4:
+        printf("%d",a/b);
+        break;
+        default:
+        printf("Invalid choice");
+    }
+    return 0;
+}
+    
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int w,a,c;
+    scanf("%d%d%d",&w,&a,&c);
+   int t=a*75+c*30;
+   if(t<=w)
+   printf("boat is stabl");
+   else
+   printf("boat will drown");
+    return 0;
+}
+    
+   
