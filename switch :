@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=12;
+    switch(a)
+    {
+        case1:
+        printf("java");
+        break;
+        case2:
+        printf("python");
+        break;
+        case3:
+        printf("c");
+        break;
+        default:
+        printf("Invalid");
+    }
+    return 0;
+    }
+   
